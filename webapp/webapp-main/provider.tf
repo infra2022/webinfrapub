@@ -14,6 +14,5 @@ terraform {
 
 provider "aws" {
   region  = var.region
-  secret_key = "UseRole"
-  access_key = "UseRole"
+
 }
